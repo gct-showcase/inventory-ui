@@ -22,12 +22,8 @@ const Fade20 = () => (
   </svg>
 );
 
-function logo() {
-  return (<img src="costco-wholesale-logo-sm.png" style={{height: "45px"}} alt="Costco" />);
-}
-
 class UIShell extends Component {
-  header = logo();
+  header = "Inventory";
   menuTitle = "Inventory Management";
   menuItems = [
     "Stock Items",
@@ -59,7 +55,7 @@ class UIShell extends Component {
       <div>
         <Header aria-label="IBM Platform Name">
           <SkipToContent />
-          <HeaderName href="#" prefix="">
+          <HeaderName href="#" prefix="IBM">
             {this.header}
           </HeaderName>
         </Header>
