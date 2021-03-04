@@ -28,7 +28,6 @@ spec:
     matchLabels:
       app.kubernetes.io/name: {{ include "starter-kit.name" . }}
       app: {{ include "starter-kit.name" . }}
-      version: {{ .Values.image.tag }}
       app.kubernetes.io/instance: {{ .Release.Name }}
   template:
     metadata:
