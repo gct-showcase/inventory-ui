@@ -45,3 +45,6 @@ partOf: inventory
 connectsTo: inventory-bff
 
 runtime: js
+
+serviceMesh:
+  sidecar: true
