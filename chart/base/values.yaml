@@ -48,3 +48,6 @@ runtime: js
 
 serviceMesh:
   sidecar: true
+
+featureToggles:
+  ADD_ITEM: false
