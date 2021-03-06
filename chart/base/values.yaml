@@ -43,7 +43,7 @@ vcsInfo:
 partOf: inventory
 
 connectsTo:
-  - inventory-management-bff
+  - inventory-bff
 
 runtime: js
 
